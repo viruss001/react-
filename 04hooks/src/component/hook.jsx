@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useState} from "react"
 function CustomHooks(name) {
     const [data, setData] = useState({})
-    useEffect(()=>{setData({name:name})},[])
+    useEffect(()=>{setData({data:name})},[])
     
     return data
 }

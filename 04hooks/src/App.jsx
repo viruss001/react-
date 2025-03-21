@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>we are about to create a our own hook</h1>
-      <h1>{`this is ${cur.name}`}</h1>
+      <h1>{`this is ${cur.data}`}</h1>
     </>
   )
 }
